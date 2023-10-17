@@ -1,0 +1,13 @@
+create project
+-npm create vite@latest __folderName(like client)
+
+install tailwind
+-follow instruction: https://tailwindcss.com/docs/guides/vite
+
+Deploy website
+-https://render.com/
+
+Important tech
+-complex mongoose query(listing.controller:getListings)
+-Firebase integration(firebase storage and auth)
+-mailto link:to={`mailto:${landlord.email}?subject=Regarding ${listing.name}&body=${message}`}
